@@ -28,7 +28,9 @@ source("download_path/qca_solutions/qca_solutions.R")  # Replace "download_path"
 ```
 
 ## Usage
+```r
 qca_solutions(c = NULL, i = NULL, icp = NULL, p = NULL, verbose = TRUE, save = NULL, round = NULL, incl.cut = NULL)
+```
 
 Arguments
 
@@ -68,7 +70,7 @@ c_solution <- minimize(tt) # Conservative
 i_solution <- minimize(tt, include = "?", dir.exp = "1, 1, 1, 1, 1") # Intermediate
 p_solution <- minimize(tt, include = "?") # Parsimonious
 
-# Only one solution (Conservative)
+# Single solution
 qca_c_solution <- qca_solutions(c = c_solution, round = 2)
 
 print(qca_c_solution)
