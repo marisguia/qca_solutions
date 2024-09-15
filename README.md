@@ -23,9 +23,9 @@ An R function for consolidating Conservative, Intermediate, and Parsimonious sol
 1. Download the `qca_solutions.R` file.
 2. In R, navigate to the folder where the script is saved, then source the script:
 
-   ```r
+```r
 source("download_path/qca_solutions/qca_solutions.R")  # Replace "download_path" with your actual path
-   ```
+```
 
 ## Usage
 qca_solutions(c = NULL, i = NULL, icp = NULL, p = NULL, verbose = TRUE, save = NULL, round = NULL, incl.cut = NULL)
