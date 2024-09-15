@@ -38,10 +38,7 @@ print(result)
 ## Dependencies
 
 - **QCA** package: [CRAN link](https://cran.r-project.org/package=QCA)
-- **writexl** package (for saving results to Excel)
-  ```r
-  install.packages("writexl")
-  ```
+- **writexl** package: [CRAN link](https://CRAN.R-project.org/package=writexl)
 
 ## License
 
