@@ -41,7 +41,7 @@ Arguments
   An intermediate solution object of class "QCA_min" (typically obtained from the minimize() function in the QCA package).
 
 - icp
-  A character vector specifying which CnPn to include for intermediate solutions.
+  A character vector specifying which subcomponents (CnPn) to include for intermediate solutions.
 
 - p
   A parsimonious solution object of class "QCA_min" (typically obtained from the minimize() function in the QCA package).
