@@ -1,6 +1,26 @@
 # qca_solutions
 
-An R function for consolidating Conservative, Intermediate, and Parsimonious solutions from the "QCA package" (Dușa, 2019) into a unified data frame.
+**Superseded by qcaERT.**
+
+This repository is no longer maintained. It documents an early standalone version of what later became `sol.df()` in the `qcaERT` package.
+
+For current use, please install and use `qcaERT`:
+
+```r
+install.packages("qcaERT")
+library(qcaERT)
+
+?sol.df
+?sol.chart
+```
+
+Development now continues at: https://github.com/marisguia/qcaERT
+
+---
+
+**The original README is kept below for archival reference.**
+
+An R function for consolidating conservative, intermediate, and parsimonious solutions from the "QCA package" (Dușa, 2019) into a unified data frame.
 
 ## Installation
 
